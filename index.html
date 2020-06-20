@@ -8,11 +8,36 @@
 </head>
 <body>
 
+    <div class="dark-fon"></div>
+    <div class="popup-out">
+        <div class="popup">
+            <div class="close-popup">
+                <p>Закрыть</p>
+            </div>
+            <h3>Заполните форму</h3>
+            <form action="POST" id="popupForm">
+                <label>
+                    <input type="text" required placeholder="Ваше имя">
+                </label>
+                <label>
+                    <input class="popupS" type="text" required placeholder="Ваш номер">
+                </label>
+                <button class="btn btn--red openPopup">Оставить заявку</button>
+                <p class="policy">Нажимая на кнопку, вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+            </form>
+        </div>
+    </div>
+
     <header>
         <div class="header-in">
             <a href="index.html" class="logo">
                 <img src="./img/logo.svg" alt="logo">
             </a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="header-right">
                 <nav>
                     <ul>
@@ -27,122 +52,175 @@
                     <img src="./img/header-number.svg" alt="number">
                     <a href="tel:8 962 123 45 67">8 962 123 45 67</a>
                 </div>
-                <a class="btn">Связаться</a>
+                <a class="btn openPopup">Связаться</a>
             </div>
         </div>
     </header>
-    <div class="first-slide">
-        <img class="first-slide-image" src="./img/ec8d116a4085e6da14bb423d70c37e27.png" alt="">
-        <img class="first-slide-up" src="./img/first-slide-up.svg" alt="">
-        <img src="./img/slide-down.svg" alt="" class="slide-down">
-        <section class="first-slide-section">
-            <h2>Экскурсии по крышам</h2>
-            <h1>Санкт-Петербурга</h1>
-            <p>Незабываемые экскурсии по крышам с видами на самые красивые и известные места города</p>
-            <a class="btn btn--red">Выбрать экскурсию</a>
-        </section>
-    </div>
-    <div class="second-slide">
-        <img src="./img/first-slide-down.svg" alt="" class="first-slide-down">
-        <section>
-            <p class="red-up">Популярные экскурсии</p>
-            <h2>Прогулки по самому красивому <br>городу мира</h2>
-            <div class="tour-wrapper">
-                <!--Elem start-->
-                <a href="" class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <div class="birka">
-                        <span>от </span><p> 600 </p><span> ₽</span>
-                    </div>
-                    <div class="elem-info">
-                        <h4>Индивидуальные экскурсии по крышам</h4>
-                        <div class="time">
-                            <img src="./img/time.svg" alt="">
-                            <span>1 час 30 минут</span>
-                        </div>
-                    </div>
-                </a>
-                <!--Elem end-->
-                <!--Elem start-->
-                <a href="" class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <div class="birka">
-                        <span>от </span><p> 600 </p><span> ₽</span>
-                    </div>
-                    <div class="elem-info">
-                        <h4>Индивидуальные экскурсии по крышам</h4>
-                        <div class="time">
-                            <img src="./img/time.svg" alt="">
-                            <span>1 час 30 минут</span>
-                        </div>
-                    </div>
-                </a>
-                <!--Elem end-->
-                <!--Elem start-->
-                <a href="" class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <div class="birka">
-                        <span>от </span><p> 600 </p><span> ₽</span>
-                    </div>
-                    <div class="elem-info">
-                        <h4>Индивидуальные экскурсии по крышам</h4>
-                        <div class="time">
-                            <img src="./img/time.svg" alt="">
-                            <span>1 час 30 минут</span>
-                        </div>
-                    </div>
-                </a>
-                <!--Elem end-->
-                <!--Elem start-->
-                <a href="" class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <div class="birka">
-                        <span>от </span><p> 600 </p><span> ₽</span>
-                    </div>
-                    <div class="elem-info">
-                        <h4>Индивидуальные экскурсии по крышам</h4>
-                        <div class="time">
-                            <img src="./img/time.svg" alt="">
-                            <span>1 час 30 минут</span>
-                        </div>
-                    </div>
-                </a>
-                <!--Elem end-->
-                <!--Elem start-->
-                <a href="" class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <div class="birka">
-                        <span>от </span><p> 600 </p><span> ₽</span>
-                    </div>
-                    <div class="elem-info">
-                        <h4>Индивидуальные экскурсии по крышам</h4>
-                        <div class="time">
-                            <img src="./img/time.svg" alt="">
-                            <span>1 час 30 минут</span>
-                        </div>
-                    </div>
-                </a>
-                <!--Elem end-->
-                <!--Elem start-->
-                <div class="tour-elem">
-                    <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
-                    <div class="dark-elem"></div>
-                    <a class="to-all-tours">
-                        <img src="./img/all-tours.svg" alt="">
-                        <h4>Все экскурсии</h4>
-                    </a>
-                </div>
-                <!--Elem end-->
-            </div>
-        </section>
-    </div>
-    <main>
 
+    <main>
+        <div class="first-slide">
+            <img class="first-slide-image" src="./img/ec8d116a4085e6da14bb423d70c37e27.png" alt="">
+            <img class="first-slide-up" src="./img/first-slide-up.svg" alt="">
+            <img src="./img/slide-down.svg" alt="" class="slide-down">
+            <section class="first-slide-section">
+                <h2>Экскурсии по крышам</h2>
+                <h1>Санкт-Петербурга</h1>
+                <p>Незабываемые экскурсии по крышам с видами на самые красивые и известные места города</p>
+                <a class="btn btn--red openPopup">Выбрать экскурсию</a>
+            </section>
+        </div>
+        <div class="second-slide">
+            <img src="./img/first-slide-down.svg" alt="" class="first-slide-down">
+            <section>
+                <p class="red-up">Популярные экскурсии</p>
+                <h2>Прогулки по самому красивому <br>городу мира</h2>
+                <div class="tour-wrapper">
+                    <!--Elem start-->
+                    <a href="" class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="birka">
+                            <span>от </span><p> 600 </p><span> ₽</span>
+                        </div>
+                        <div class="elem-info">
+                            <h4>Индивидуальные экскурсии по крышам</h4>
+                            <div class="time">
+                                <img src="./img/time.svg" alt="">
+                                <span>1 час 30 минут</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--Elem end-->
+                    <!--Elem start-->
+                    <a href="" class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="birka">
+                            <span>от </span><p> 600 </p><span> ₽</span>
+                        </div>
+                        <div class="elem-info">
+                            <h4>Индивидуальные экскурсии по крышам</h4>
+                            <div class="time">
+                                <img src="./img/time.svg" alt="">
+                                <span>1 час 30 минут</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--Elem end-->
+                    <!--Elem start-->
+                    <a href="" class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="birka">
+                            <span>от </span><p> 600 </p><span> ₽</span>
+                        </div>
+                        <div class="elem-info">
+                            <h4>Индивидуальные экскурсии по крышам</h4>
+                            <div class="time">
+                                <img src="./img/time.svg" alt="">
+                                <span>1 час 30 минут</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--Elem end-->
+                    <!--Elem start-->
+                    <a href="" class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="birka">
+                            <span>от </span><p> 600 </p><span> ₽</span>
+                        </div>
+                        <div class="elem-info">
+                            <h4>Индивидуальные экскурсии по крышам</h4>
+                            <div class="time">
+                                <img src="./img/time.svg" alt="">
+                                <span>1 час 30 минут</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--Elem end-->
+                    <!--Elem start-->
+                    <a href="" class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="birka">
+                            <span>от </span><p> 600 </p><span> ₽</span>
+                        </div>
+                        <div class="elem-info">
+                            <h4>Индивидуальные экскурсии по крышам</h4>
+                            <div class="time">
+                                <img src="./img/time.svg" alt="">
+                                <span>1 час 30 минут</span>
+                            </div>
+                        </div>
+                    </a>
+                    <!--Elem end-->
+                    <!--Elem start-->
+                    <div class="tour-elem">
+                        <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
+                        <div class="dark-elem"></div>
+                        <a class="to-all-tours">
+                            <img src="./img/all-tours.svg" alt="">
+                            <h4>Все экскурсии</h4>
+                        </a>
+                    </div>
+                    <!--Elem end-->
+                </div>
+            </section>
+        </div>
+        <div class="third-slide-out">
+            <div class="third-slide">
+                <img src="./img/third-slide.svg" alt="">
+                <section>
+                    <div class="event">
+                        <img src="./img/75630e31a7329286184d18a9126b5f9d.png" alt="">
+                        <div class="dark-elem"></div>
+                        <div class="event-info">
+                            <h2>Алые паруса 2020</h2>
+                        <p>В самом сердце Петербурга, в акватории Невы, в ночь с 23 на 24 июня 2020
+                             состоится грандиознейшее шоу под названием «Алые Паруса».</p>
+                        <div class="event-btns">
+                            <a class="btn btn--red openPopup">Записаться на экскурсию</a>
+                            <a class="btn btn--red btn-white">Подробнее</a>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="four-slide">
+                    <p>Почему выбирают нас</p>
+                    <h2>Для нас важно, чтобы вы ни о чем не переживали</h2>
+                    <div class="wrapper-four">
+                        <div class="four-elem">
+                            <div class="four-elem-img">
+                                <img src="./img/police.svg" alt="">
+                            </div>
+                            <div class="four-elem-info">
+                                <h3>Легально</h3>
+                                <p>Проводим мероприятия официально и законно. Ваш день не испортят вмешательство полиции или споры с жильцами.</p>
+                            </div>    
+                        </div>
+                        <div class="four-elem">
+                            <div class="four-elem-img">
+                                <img src="./img/heart.svg" alt="">
+                            </div>
+                            <div class="four-elem-info">
+                                <h3>Безопасно</h3>
+                                <p>Опытные гиды внимательно следят за вашей безопасностью. А крыши оборудованны специальными загрождениями</p>
+                            </div>
+                        </div>
+                        <div class="four-elem">
+                            <div class="four-elem-img">
+                                <img src="./img/photocard.svg" alt="">
+                            </div>
+                            <div class="four-elem-info">
+                                <h3>Лучшие виды</h3>
+                                <p>Мы подбираем для ваших прогулок самые удобные крыши с самыми великолепными видами!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
 
