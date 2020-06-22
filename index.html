@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/main.css">
     <title>Main</title>
 </head>
@@ -41,11 +42,11 @@
             <div class="header-right">
                 <nav>
                     <ul>
-                        <li><a href="">Экскурсии</a></li>
-                        <li><a href="">О нас</a></li>
-                        <li><a href="">Блог</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="tours.html">Экскурсии</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="header-number">
@@ -71,12 +72,12 @@
         </div>
         <div class="second-slide">
             <img src="./img/first-slide-down.svg" alt="" class="first-slide-down">
-            <section>
+            <section id="toScroll">
                 <p class="red-up">Популярные экскурсии</p>
                 <h2>Прогулки по самому красивому <br>городу мира</h2>
                 <div class="tour-wrapper">
                     <!--Elem start-->
-                    <a href="" class="tour-elem">
+                    <a href="tour.html" class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
                         <div class="birka">
@@ -92,7 +93,7 @@
                     </a>
                     <!--Elem end-->
                     <!--Elem start-->
-                    <a href="" class="tour-elem">
+                    <a href="tour.html" class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
                         <div class="birka">
@@ -108,7 +109,7 @@
                     </a>
                     <!--Elem end-->
                     <!--Elem start-->
-                    <a href="" class="tour-elem">
+                    <a href="tour.html" class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
                         <div class="birka">
@@ -124,7 +125,7 @@
                     </a>
                     <!--Elem end-->
                     <!--Elem start-->
-                    <a href="" class="tour-elem">
+                    <a href="tour.html" class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
                         <div class="birka">
@@ -140,7 +141,7 @@
                     </a>
                     <!--Elem end-->
                     <!--Elem start-->
-                    <a href="" class="tour-elem">
+                    <a href="tour.html" class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
                         <div class="birka">
@@ -159,7 +160,7 @@
                     <div class="tour-elem">
                         <img src="./img/35f1fb85bbdac5a95fd90f8be570cde9.png" alt="">
                         <div class="dark-elem"></div>
-                        <a class="to-all-tours">
+                        <a href="tours.html" class="to-all-tours">
                             <img src="./img/all-tours.svg" alt="">
                             <h4>Все экскурсии</h4>
                         </a>
@@ -170,7 +171,7 @@
         </div>
         <div class="third-slide-out">
             <div class="third-slide">
-                <img src="./img/third-slide.svg" alt="">
+                <img class="third-slide-image" src="./img/third-slide.svg" alt="">
                 <section>
                     <div class="event">
                         <img src="./img/75630e31a7329286184d18a9126b5f9d.png" alt="">
@@ -181,13 +182,13 @@
                              состоится грандиознейшее шоу под названием «Алые Паруса».</p>
                         <div class="event-btns">
                             <a class="btn btn--red openPopup">Записаться на экскурсию</a>
-                            <a class="btn btn--red btn-white">Подробнее</a>
+                            <a href="tour.html" class="btn btn--red btn-white">Подробнее</a>
                         </div>
                         </div>
                     </div>
                 </section>
                 <section class="four-slide">
-                    <p>Почему выбирают нас</p>
+                    <p class="red-up">Почему выбирают нас</p>
                     <h2>Для нас важно, чтобы вы ни о чем не переживали</h2>
                     <div class="wrapper-four">
                         <div class="four-elem">
@@ -221,12 +222,344 @@
                 </section>
             </div>
         </div>
+        <section class="quite">
+            <div class="quite-elem">
+                <img class="quite-l" src="./img/quite-l.svg" alt="">
+                <img class="quite-r" src="./img/quite-r.svg" alt="">
+                <p class="quite-text">Мне хочется создать что-то <span>необычное</span> и <span>эффектное.
+                </span> Экскурсиями по крышам уже малого кого удивишь.
+                     Но мы <span>стараемся</span> и <span>делаем все</span>,
+                      чтобы стать <span>номером 1</span> и создавать самые <span>крутые эмоции</span> для вас.
+                </p>
+                <h4>Егор Карпин</h4>
+                <p class="quite-down">Основатель “КрышаМира”</p>
+            </div>
+        </section>
+        <div class="about-index">
+            <img class="about-index-img" src="./img/about-index.svg" alt="">
+            <section>
+                <div class="about-index-in">
+                    <div class="about-index-l">
+                        <p>Более 15000 экскурсий</p>
+                        <p>Работаем более 8 лет</p>
+                        <p>№ 1<br><span>в Питере</span></p>
+                        <div class="index-l-gallery">
+                            <img src="./img/c30f847e44273c4180f9e1216f5aca74.png" alt="">
+                            <img src="./img/888b69ae96403fc520099d591b3306cc.png" alt="">
+                            <img src="./img/1764423fae12434581439282a6e6b9d0.png" alt="">
+                            <img src="./img/1764423fae12434581439282a6e6b9d0.png" alt="">
+                        </div>
+                    </div>
+                    <div class="about-index-r">
+                        <p class="red-up">О нас</p>
+                        <h2>Возможность увидеть город с другой стороны</h2>
+                        <p class="abut-r">Наверное, невозможно придумать более увлекательного времяпрепровождения,
+                             чем прогулки по крышам – это тот «запретный плод» о котором мечтает каждый второй влюбленный молодой человек
+                              и каждый первый экстремал.чем прогулки по крышам – это тот «запретный плод» о котором мечтает
+                            <br><br>
+                            Наверное, невозможно придумать более увлекательного времяпрепровождения,
+                             чем прогулки по крышам – это тот «запретный плод» о котором мечтает каждый второй влюбленный молодой человек
+                              и каждый первый экстремал.чем прогулки по крышам – это тот «запретный плод» о котором мечтае
+                        </p>
+                        <a class="podr" href="">
+                            Показать больше
+                            <img src="./img/podr.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="reviews">
+            <div class="reviews-up">
+                <p class="red-up">Отзывы</p>
+                <h2>Наши довольные клиенты</h2>
+            </div>
+            <div class="reviews-in">
+                <div class="l-dots">
+                    <div class="dot dotActive" onclick="reviewChange(0)">
+                        <img src="./img/685819c7ff9c7e2cbb23e6190ab4ef92.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(1)">
+                        <img src="./img/cae88acc0b2649a8843fbb8f55bf5013.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(2)">
+                        <img src="./img/67e80880113551df4dc71e798dbcc09c.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(3)">
+                        <img src="./img/00449c4cc06ba0922ff16320c545a33c.png" alt="">
+                    </div>
+                </div>
+                <div class="reviews-wrapper">
+                    <div class="review reviewActive">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/685819c7ff9c7e2cbb23e6190ab4ef92.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/cae88acc0b2649a8843fbb8f55bf5013.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/67e80880113551df4dc71e798dbcc09c.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/00449c4cc06ba0922ff16320c545a33c.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/a9a745238bd8c3c2578df9810c8f17ee.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/bdc0dcfa81fd1e0a699d31cc11c779a8.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/a175d3e77f1f8f8348754ef9e9d210c4.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                    <div class="review ">
+                        <div class="review-l"></div>
+                        <div class="review-r"></div>
+                        <div class="review-up">
+                            <img class="review-up-img" src="./img/8653a34466ad9a5de96c5f4d64969b89.png" alt="">
+                            <div class="review-up-r">
+                                <h4>Екатерина Джога</h4>
+                                <a>
+                                    <img src="./img/vk-review.svg" alt="">
+                                    Читать отзыв
+                                </a>
+                            </div>
+                        </div>
+                        <p>Прогулка по крышам в районе станции метро Горьковская была просто супер!!
+                             Шикарные виды, эмоции и ощущения вперемешку с адреналином под чутким руководством гидов!!
+                              Спасибо за исполнение мечты))</p>
+                    </div>
+                </div>
+                <div class="review-dots"></div>
+                <div class="r-dots">
+                    <div class="dot" onclick="reviewChange(4)">
+                        <img src="./img/a9a745238bd8c3c2578df9810c8f17ee.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(5)">
+                        <img src="./img/bdc0dcfa81fd1e0a699d31cc11c779a8.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(6)">
+                        <img src="./img/a175d3e77f1f8f8348754ef9e9d210c4.png" alt="">
+                    </div>
+                    <div class="dot" onclick="reviewChange(7)">
+                        <img src="./img/8653a34466ad9a5de96c5f4d64969b89.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-index">
+            <p class="red-up">Блог</p>
+            <h2>Блог о наших прогулках по крышам Санкт-Петербурга и не только</h2>
+            <div class="blog-wrapper">
+                <a href="arcticle.html" class="blog-elem">
+                    <div class="blog-img">
+                        <img src="./img/a0fa447683ce5fd39d17a142100777e9.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h4>Необычные места в Питере</h4>
+                        <p class="date">25.05.2020</p>
+                    </div>
+                </a>
+                <a href="arcticle.html" class="blog-elem">
+                    <div class="blog-img">
+                        <img src="./img/a0fa447683ce5fd39d17a142100777e9.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h4>Необычные места в Питере</h4>
+                        <p class="date">25.05.2020</p>
+                    </div>
+                </a>
+                <a href="arcticle.html" class="blog-elem">
+                    <div class="blog-img">
+                        <img src="./img/a0fa447683ce5fd39d17a142100777e9.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h4>Необычные места в Питере</h4>
+                        <p class="date">25.05.2020</p>
+                    </div>
+                </a>
+                <a href="arcticle.html" class="blog-elem">
+                    <div class="blog-img">
+                        <img src="./img/a0fa447683ce5fd39d17a142100777e9.png" alt="">
+                    </div>
+                    <div class="blog-info">
+                        <h4>Необычные места в Питере</h4>
+                        <p class="date">25.05.2020</p>
+                    </div>
+                </a>
+            </div>
+            <a href="blog.html" class="btn btn-blog">Все статьи</a>
+        </section>
+        <div class="under-footer">
+            <div class="under-footer-fon">
+                <div class="dark-footer"></div>
+                <img class="un-footer" src="./img/footer-image.png" alt="">
+            </div>
+            <section>
+                <h2>У вас остались вопросы?</h2>
+                <p class="know">Или не знате какую экскурсию выбрать?</p>
+                <p class="fo-foo-form">Заполните форму и мы свяжемся с вами в ближайшее время</p>
+                <form action="POST" id="formFooter">
+                    <div class="form-f-up">
+                        <label>
+                            <input type="text" placeholder="Ваше имя" required>
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Ваш номер" required>
+                        </label>
+                    </div>
+                    <button class="btn btn--red">Отправить заявку</button>
+                    <p class="policy">Нажимая на кнопку, вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+                </form>
+                <p class="social-text">Вы так же можете связаться с нами через соц.сети:</p>
+                <div class="social">
+                    <a href="">
+                        <img src="./img/telegram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/whatsapp.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/vk.svg" alt="">
+                    </a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-
+        <img src="./img/footer.svg" alt="">
+        <section>
+            <div class="footer-in">
+                <div class="footer-in-up">
+                    <nav>
+                        <ul>
+                            <li><a href="tours.html">Экскурсии</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="foo-contacts">
+                        <a href="tel:8 148 811 65 41">8 148 811 65 41</a>
+                        <p>Заказть обратный звонок</p>
+                        <a class="cont-m" href="mailto:roofburgs@yandex.ru">roofburgs@yandex.ru</a>
+                    </div>
+                </div>
+                <div class="footer-in-down">
+                    <div class="footer-in-down-l">
+                        <p>КрышаМира 2020 © Все права защищены</p>
+                        <a href="">Политика конфиденциальности</a>
+                    </div>
+                    <p class="where">Сделано в <a href="">INSIGHT STUDIO</a></p>
+                </div>
+            </div>
+        </section>
     </footer>
     
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/main.js" ></script>
 </body>
 </html>

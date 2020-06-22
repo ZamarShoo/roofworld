@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Main</title>
+</head>
+<body>
+
+    <div class="dark-fon"></div>
+    <div class="popup-out">
+        <div class="popup">
+            <div class="close-popup">
+                <p>Закрыть</p>
+            </div>
+            <h3>Заполните форму</h3>
+            <form action="POST" id="popupForm">
+                <label>
+                    <input type="text" required placeholder="Ваше имя">
+                </label>
+                <label>
+                    <input class="popupS" type="text" required placeholder="Ваш номер">
+                </label>
+                <button class="btn btn--red openPopup">Оставить заявку</button>
+                <p class="policy">Нажимая на кнопку, вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-in">
+            <a href="index.html" class="logo">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li><a href="tours.html">Экскурсии</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header-number">
+                    <img src="./img/header-number.svg" alt="number">
+                    <a href="tel:8 962 123 45 67">8 962 123 45 67</a>
+                </div>
+                <a class="btn openPopup">Связаться</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+ 
+        <div class="under-footer">
+            <div class="under-footer-fon">
+                <div class="dark-footer"></div>
+                <img class="un-footer" src="./img/footer-image.png" alt="">
+            </div>
+            <section>
+                <h2>У вас остались вопросы?</h2>
+                <p class="know">Или не знате какую экскурсию выбрать?</p>
+                <p class="fo-foo-form">Заполните форму и мы свяжемся с вами в ближайшее время</p>
+                <form action="POST" id="formFooter">
+                    <div class="form-f-up">
+                        <label>
+                            <input type="text" placeholder="Ваше имя" required>
+                        </label>
+                        <label>
+                            <input type="text" placeholder="Ваш номер" required>
+                        </label>
+                    </div>
+                    <button class="btn btn--red">Отправить заявку</button>
+                    <p class="policy">Нажимая на кнопку, вы соглашаетесь с <a href="">политикой конфиденциальности</a></p>
+                </form>
+                <p class="social-text">Вы так же можете связаться с нами через соц.сети:</p>
+                <div class="social">
+                    <a href="">
+                        <img src="./img/telegram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/whatsapp.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/instagram.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/vk.svg" alt="">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <img src="./img/footer.svg" alt="">
+        <section>
+            <div class="footer-in">
+                <div class="footer-in-up">
+                    <nav>
+                        <ul>
+                            <li><a href="tours.html">Экскурсии</a></li>
+                            <li><a href="about.html">О нас</a></li>
+                            <li><a href="blog.html">Блог</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="foo-contacts">
+                        <a href="tel:8 148 811 65 41">8 148 811 65 41</a>
+                        <p>Заказть обратный звонок</p>
+                        <a class="cont-m" href="mailto:roofburgs@yandex.ru">roofburgs@yandex.ru</a>
+                    </div>
+                </div>
+                <div class="footer-in-down">
+                    <div class="footer-in-down-l">
+                        <p>КрышаМира 2020 © Все права защищены</p>
+                        <a href="">Политика конфиденциальности</a>
+                    </div>
+                    <p class="where">Сделано в <a href="">INSIGHT STUDIO</a></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
