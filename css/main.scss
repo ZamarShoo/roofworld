@@ -716,7 +716,6 @@ p.red-up {
         }
     }
 
-    
 
     img {
         position: absolute;
@@ -2794,13 +2793,7 @@ footer {
     display: none;
 }
 
-@media screen and (max-height: 800px) {
-    .slide-down {
-        top: 80vh;
-    }
-    .slide-down:hover {
-        top: 81vh;
-    }
+@media screen and (max-width: 800px) {
     .slider-tour img {
         width: 187px;
         height: 100px;
@@ -2813,6 +2806,15 @@ footer {
         width: 571px;
         margin: 0 auto;
         margin-top: 206px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .slide-down {
+        top: 80vh;
+    }
+    .slide-down:hover {
+        top: 81vh;
     }
 }
 
@@ -3418,9 +3420,9 @@ footer {
     }
 
     .tour-first section .btn {
-        max-width: 100%;
-        margin-left: -0px;
-        left: 0%;
+        max-width: 300px;
+        margin-left: -150px;
+        left: 50%;
     }
 
     .popup {
