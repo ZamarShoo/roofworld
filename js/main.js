@@ -73,4 +73,13 @@ $(function(){
     e.preventDefault();
   });
   
+});
+
+$(function(){
+
+  $('.scrollBlog').on('click', function(e){
+    $('html,body').stop().animate({ scrollTop: $('.toScrollBlog').offset().top }, 1000);
+    e.preventDefault();
   });
+    
+});

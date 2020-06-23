@@ -1698,6 +1698,147 @@ footer section {
   text-decoration-line: underline;
 }
 
+.blog-date {
+  font-family: 'Avenir Next Medium';
+  font-size: 14px;
+  line-height: 100%;
+  color: #374072;
+  opacity: 0.6;
+  margin-bottom: 90px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.blog-article {
+  margin: 0 auto 150px;
+}
+
+#text {
+  margin: 100px 0 -50px;
+  text-align: left !important;
+}
+
+#text p {
+  font-family: 'Avenir Next Regular';
+  font-size: 22px;
+  line-height: 160%;
+  color: #374072;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+#text img {
+  width: 100%;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+#text a {
+  font-family: 'Avenir Next Regular';
+  font-size: 22px;
+  line-height: 160%;
+  text-decoration-line: underline;
+  color: #E72F50;
+}
+
+#text h2 {
+  font-family: 'Avenir Next Demi';
+  font-size: 40px;
+  line-height: 160%;
+  color: #374072;
+  margin: 10px 0 20px;
+  text-align: left;
+}
+
+#text h3 {
+  font-size: 26px;
+  line-height: 160%;
+  color: #374072;
+  margin: 5px 0 10px;
+}
+
+#text ul li {
+  font-family: 'Avenir Next Regular';
+  font-size: 22px;
+  line-height: 160%;
+  color: #374072;
+  opacity: 0.8;
+  margin-bottom: 25px;
+  position: relative;
+  padding-left: 15px;
+}
+
+#text ul li::before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #374072;
+  border-radius: 50%;
+}
+
+.toScrollBlog {
+  position: absolute;
+  top: -400px;
+}
+
+.blog {
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog .blog-section {
+  width: 850px;
+  margin: 0 auto;
+  padding-bottom: 170px;
+}
+
+.blog .blog-section .blog-social {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.blog .blog-section .blog-social a {
+  cursor: pointer;
+}
+
+.blog h2 {
+  text-align: center;
+}
+
+.blog-img {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scrollBlog {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto -45px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.scrollBlog:hover {
+  margin: 0 auto -55px;
+}
+
 .footer-in {
   position: absolute;
   bottom: 100px;
@@ -2171,6 +2312,18 @@ footer section {
 }
 
 @media screen and (max-width: 900px) {
+  .blog-img {
+    height: auto;
+  }
+  .blog-date {
+    margin-bottom: 50px;
+  }
+  .blog .blog-section {
+    padding-bottom: 70px;
+  }
+  .blog .blog-section {
+    width: 100%;
+  }
   .command-info p {
     font-size: 16px;
   }
@@ -2319,6 +2472,18 @@ footer section {
 }
 
 @media screen and (max-width: 600px) {
+  #text {
+    margin: 50px 0 0px;
+  }
+  #text p, #text a, #text ul li {
+    font-size: 16px;
+  }
+  #text h2 {
+    font-size: 22px;
+  }
+  #text h3 {
+    font-size: 18px;
+  }
   .quite-about {
     height: 580px;
   }
