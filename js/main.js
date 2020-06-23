@@ -44,6 +44,15 @@ function reviewChange(dotNumber) {
   bodyOld = bodyNew
 }
 
+function addPhotoTour() {
+  let photo = document.querySelectorAll('div.slider-tour-wrapper > a');
+  let plus = document.getElementById('img-tour')
+  plus.classList.toggle('rotate')
+  photo[3].classList.toggle('notActive')
+  photo[4].classList.toggle('notActive')
+  photo[5].classList.toggle('notActive')
+}
+
 $(window).on("load resize", function(){
   var width = $(document).width();
    
@@ -65,6 +74,21 @@ $(window).on("load resize", function(){
     });
   }
 });
+
+let count = 0
+let textTour = $("#text_in>:not(:eq(0))")
+textTour.hide();
+
+function hideOrShowTourText() {
+  if (count === 0) {
+    textTour.show();
+  }
+  if (count === 1) {
+    textTour.hide();
+  }
+
+  if (count === 0) { count = 1 } else { count = 0 }
+}
 
 $(function(){
 
